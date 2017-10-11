@@ -314,13 +314,11 @@ Combined emphasis with **asterisks and _underscores_**.
 
 
 
-<a name="owlcarousel"/>
+<a name="owlcarouse"/>
 
 
 ## owlcarousel
 
-
-**owlcarousel.md**
 
 Information about the default JavaScript included in the project.
 
