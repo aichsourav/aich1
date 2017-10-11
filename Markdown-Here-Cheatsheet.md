@@ -149,7 +149,7 @@ An installed server-side testing environment, like [MAMP] or [WAMP] or [XAMPP]
 <a name="CSS"/>
 
 
-##CSS
+## CSS
 
 
 
@@ -188,7 +188,7 @@ Styles are being used and test-edit the CSS.
 <a name="The-JavaScript"/>
 
 
-**The JavaScript**
+## The JavaScript
 
 
 The JavaScript / jQuery plugins uses are stored in js/ folder. You do not need to edit these items.
@@ -398,6 +398,10 @@ If a browser cannot find an image, it will display the value of the alt attribut
                         </span>
            </div>
     </div>
+    
+<a name="Font"/>
+      
+## Font
 
 <a name="HTML-Structure"/>
 
@@ -429,6 +433,7 @@ This template use bootstrap framework.For more info please visit this page
    
 
 ### blog.html
+
 Having a lot of content means a lot of scrolling. It helps to make things 
 a little easier for your readers if you include an easy way to jump all 
 the way back to the top of the page. Adding a Back To Top button can easily
