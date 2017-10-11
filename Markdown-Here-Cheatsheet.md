@@ -317,7 +317,7 @@ Combined emphasis with **asterisks and _underscores_**.
 <a name="owlcarouse"/>
 
 
-## owlcarousel
+## Owlcarousel
 
 
 Information about the default JavaScript included in the project.
