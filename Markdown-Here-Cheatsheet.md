@@ -36,7 +36,7 @@ Check out the **[Full Template Features](https://pixelaar.com/)**
 [The JavaScript](#The-JavaScript)  
 [Images](#images)  
 [Font](#Font)  
-[Owlcarousel](#Owlcarousel)  
+[Owlcarousel](#owlcarousel)  
 [HTML Structure](#HTML-Structure)  
 [Bootstrap](#Bootstrap)   
 [Reference link](#Reference-link)  
@@ -313,8 +313,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 
 
-
-<a name="Owlcarouse"/>
+<a name="0wlcarouse"/>
 
 
 ## Owlcarousel
