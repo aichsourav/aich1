@@ -26,35 +26,21 @@ Should anything else be here? Add it (either here or in another page)!
 </ol>
 
 
-Check out the **[Full Template Features](wiki/Markdown-Here-Cheatsheet)** to discover what you can do in *Markdown Here*. (There is also a [Markdown Cheatsheet](wiki/Markdown-Cheatsheet) that is not specific to *Markdown Here*.)
+Check out the **[Full Template Features](https://pixelaar.com/)** 
+
+
 ##### Table of Contents
 
 [Getting started](#Getting-started)  
 [CSS](#CSS)  
-[The JavaScript](#The JavaScript)  
-[Links](#links)  
+[The JavaScript](#The-JavaScript)  
 [Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[YouTube Videos](#videos) 
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[YouTube Videos](#videos)   
-
-
+[Font](#Font)  
+[Owlcarousel](#Owlcarousel)  
+[HTML Structure](#HTML-Structure)  
+[Bootstrap](#Bootstrap)   
+[Reference link](#Reference-link)  
+  
 <a name="Getting-started"/>
 
 
@@ -64,6 +50,60 @@ Check out the **[Full Template Features](wiki/Markdown-Here-Cheatsheet)** to dis
 [Directory - Listing Templates](https://pixelaar.com/) | [Documentation
 table of contents](TOC.md)
 
+Basic structure
+
+A basic Directory - Listing Templates site initially looks something like this:
+
+```
+
+├── css
+│   ├── animate.min.css
+│   ├── bootstrap.min.css
+│   ├── font-awesome.min.css
+│   ├── jquery.mCustomScrollbar.min.css
+│   ├── magnific-popup.css
+│   ├── responsive.css
+│   ├── sidenav.css
+│   └── style.css
+
+├── fonts
+├── img
+├── js
+│   ├── animation-text.js
+│   ├── bootstrap.min.js
+│   ├── imagesloaded.pkgd.min.js
+│   ├── infobox.min.js
+│   ├── jquery.easeScroll.js
+│   ├── jquery.easing.min.js
+│   ├── jquery.mCustomScrollbar.js
+│   ├── magnific-popup.min.js
+│   ├── maps.js
+│   ├── markerclusterer.js
+│   ├── scripts.js
+│   ├── sidenav.min.js
+│   ├── wow.min.js
+│   └── vendor
+│       ├── html5shim.js
+│       ├── modernizr-2.8.1.min.js
+│       └── respond.min.js
+├── owlcarousel
+│   ├── owl.carousel.min.js
+│   └── assets
+│       ├── owl.carousel.min.css
+│       └── owl.theme.default.min.css
+├── blog.html
+├── blog-details.html
+├── 404.html
+├── contact.html
+├── favicon.png
+├── index.html
+├── list-details.html
+├── list-list-view.html
+└── list-list-view-half.html
+
+```
+
+
 * [Usage](usage.md) — Overview of the project contents.
 * [FAQ](faq.md) — Frequently asked questions along with their answers.
 
@@ -72,8 +112,8 @@ table of contents](TOC.md)
 * [HTML](html.md) — Guide to the default HTML.
 * [CSS](css.md) — Guide to the default CSS.
 * [JavaScript](js.md) — Guide to the default JavaScript.
-* [Installing template](Installing template.md) — Guide to the default JavaScript.
-* [Reference link](Reference link.md) — Guide to the default JavaScript. 
+* [Installing template](Installin.md) — Guide to the default Installing template.
+* [Reference link](Referencelink.md) — Guide to the default Reference link. 
 
 **Related projects**
 Tools required for students and teachers
@@ -108,7 +148,10 @@ An installed server-side testing environment, like [MAMP] or [WAMP] or [XAMPP]
 
 <a name="CSS"/>
 
+
 ##CSS
+
+
 
 We are using one primary CSS file for this template: /css/style.css. This file contains all style information for the template .
 
@@ -144,7 +187,9 @@ Styles are being used and test-edit the CSS.
        
 <a name="The-JavaScript"/>
 
-## The JavaScript
+
+**The JavaScript**
+
 
 The JavaScript / jQuery plugins uses are stored in js/ folder. You do not need to edit these items.
 
@@ -185,7 +230,8 @@ js/scripts.js - This contains the plugin setup / init and general information
     <!-- custom script -->
     <script src="js/scripts.js"></script>
 
-## scripts.js
+**scripts.js**
+
 
 This file can be used to contain or reference your site/app JavaScript code.
 If you're working on something more advanced you might replace this file
@@ -215,8 +261,7 @@ entirely. That's cool.
     }());
 
 
-## plugins.js
-
+**plugins.js**
 
 
 One approach is to put jQuery plugins inside of a `(function($){ ...
@@ -227,7 +272,9 @@ By default the `plugins.js` file contains a small script to avoid `console`
 errors in browsers that lack a `console`. The script will make sure that, if
 a console method isn't available, that method will have the value of empty
 function, thus, preventing the browser from throwing an error.
-##maps
+
+**maps**
+
 This file can be used to contain all your website maps such as jQuery plugins and
 other 3rd party scripts for a simple site.
  
@@ -264,14 +311,45 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
 Combined emphasis with **asterisks and _underscores_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
 
 
-<a name="lists"/>
 
-## Lists
+<a name="owlcarousel"/>
 
-```no-highlight
+
+## owlcarousel
+
+
+**owlcarousel.md**
+
+Information about the default JavaScript included in the project.
+
+**owl.carousel.min.js**
+
+This file can be used to contain or reference your site JavaScript code.
+If you're working on something more advanced you might replace this file
+entirely. That's cool. 
+
+**Assets**
+
+This file can be used to contain all your plugins, such as jQuery plugins and
+other 3rd party scripts for a simple site.
+
+  **owl.carousel.min**
+  This directory can be used to slide contain . 
+   
+   **oowl.theme.default.min**
+  default the  file contains a small script to avoid 
+    errors in browsers that lack a  The script will make sure that, if
+    a console method isn't available, that method will have the value of empty
+    function, thus, preventing the browser from throwing an error.
+  
+
+One approach is to put jQuery plugins inside of a `(function($){ ...
+})(jQuery);` closure to make sure they're in the jQuery namespace safety
+blanket. Read more about [jQuery plugin
+authoring](https://learn.jquery.com/plugins/#Getting_Started).
+
 1. First ordered list item
 2. Another item
   * Unordered sub-list. 
@@ -284,296 +362,179 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
-```
 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-   
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-<a name="links"/>
-
-## Links
-
-There are two ways to create links.
-
-```no-highlight
-[I'm an inline-style link](https://www.google.com)
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-```
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 
 <a name="images"/>
 
-## Images
 
-```no-highlight
-Here's our logo (hover to see the title text):
+## images
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-Reference-style: 
-![alt text][logo]
+The alt attribute provides an alternate text for an image,
+HTML File Paths
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-```
+A file path describes the location of a file in a web site's folder structure.
 
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-<a name="code"/>
-
-## Code and Syntax Highlighting
-
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
-
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
-
-Inline `code` has `back-ticks around` it.
-
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
-
-<pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+File paths are used when linking to external files like:
+<ol>
+<li>Img</li>
+<li>index.html</li>
+</ol>
  
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-```
-</code></pre>
+If a browser cannot find an image, it will display the value of the alt attribute.
+    
+    
+    <div class="listing-item-single">
+       <img src="img/destination-2.jpg" class="img-responsive" alt="">
+           <div class="listing-overly-content">
+             <span class="overlay-like">
+             <i class="fa fa-heart-o"></i>340</span>
+               <span class="overlay-label">
+                     <span class="label-bg3">Building</span>
+                    $500/Year
+               </span>
+                        <span class="item-free">
+                          <img src="img/team/t1.jpg" alt="">
+                        </span>
+           </div>
+    </div>
+
+<a name="HTML-Structure"/>
+
+## HTML Structure
 
 
+This template use bootstrap framework.For more info please visit this page
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+             <section class="add-directory-list ptb-100">
+                                <div class="add-directory-list-wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-offset-2">
+                                                <div class="add-directory-list-content text-center white-text">
+                                                    <h2 class="white-text">Post Your Service On Listing Master</h2>
+                                                    <p>Phosfluorescently pontificate multimedia based paradigms via premier schemas.
+                                                        Energistically conceptualize high-quality outsourcing and interdependent
+                                                        e-services.</p>
+                                                    <div class="add-listing-btn mt-30">
+                                                        <a href="#" class="pxlr-solid-btn"><i class="fa fa-plus"></i> Add
+                                                            Listing</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+   
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+### blog.html
+Having a lot of content means a lot of scrolling. It helps to make things 
+a little easier for your readers if you include an easy way to jump all 
+the way back to the top of the page. Adding a Back To Top button can easily
+solve scrolling issues and is really simple to implement! I’ve included a really
+easy Back To Top button here for you that you can add to any website or blog.
+All you need to edit are the theme’s CSS file and the main HTML template file
 
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
-```
 
-Again, to see what languages are available for highlighting, and how to write those language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+### blog-details.html
 
-<a name="tables"/>
+This file contains all settings regarding custom tiles for IE11 and Edge.
 
-## Tables
+For more info on this topic, please refer to
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+### 404.html
 
+A helpful custom 404 to get you started.
+
+### contact.html
+
+This is the default HTML  contact form is basically a set of questions filled out 
+on the webpage by your visitor that is automatically sent to your email when it is
+filled out HTML with your setup.
+
+### index.html
+
+Edit this file to include the team that worked on your website and edit code.
+
+### list-details.html
+
+List-details View is a view Overview that displays a list and Video  of scrollable items. The 
+list items  Review are automatically inserted to the list using an Adapter that
+pulls content from.
+
+### list-list-view.html
+
+List View is a view group that displays a list of scrollable items.
+
+### list-list-view-half.html
+List View is a view two item that displays a list of scrollable items. 
+
+
+<a name="Bootstrap"/>
+
+## Bootstrap
+
+Bootstrap Grid System
+Bootstrap's grid system allows up to 12 columns across the page.
+
+If you do not want to use all 12 column individually, you can group the columns together to create wider columns:
+Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size: On a big 
+screen it might look better with the content organized in three columns, but on a small screen it would be better 
+if the content items were stacked on top of each other
 ```no-highlight
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-<a name="blockquotes"/>
-
-## Blockquotes
-
-```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-```
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
-<a name="html"/>
-
-## Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
-
-```no-highlight
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-<a name="hr"/>
-
-## Horizontal Rule
+  <div class="col-md-4">
+    <div class="destination-single panel text-center">
+        <img src="img/destination-5.jpg" alt="destination image">
+        <div class="panel-body">
+          <h3>Maldive</h3>
+        <p>Continually expedite progressive</p>
+        </div>
+    </div>
+   </div>                                
 
 ```
-Three or more...
 
----
 
-Hyphens
+<a name="Installing"/>
 
-***
 
-Asterisks
+## Installing Template
 
-___
 
-Underscores
-```
+After unzip the download pack, you'll found a Template Folder with all the files.
 
-Three or more...
+You can view this Template in any browser, you can display or edit the Template without an internet connection.
 
----
+The three sections that will not work is the Google map Section which contains external link to get the map source.
 
-Hyphens
+the Contact form which uses PHP, so will work only online.
 
-***
+Now open your FTP Client (like Filezilla) or directly through cpanel, upload the content of the Template on your server root.
 
-Asterisks
+Once the files are done uploading go to www.yourdomainname.com/index.html
 
-___
+Please follow the tutorial to have a simple installation of the theme. 
 
-Underscores
 
-<a name="lines"/>
+<a name="Reference-link"/>
 
-## Line Breaks
 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
+## Reference link
 
-Here are some things to try out:
 
-```
-Here's a line for us to start with.
+There are two ways to create links.
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-```
+[Owl carouse link](https://owlcarousel2.github.io/OwlCarousel2/)
 
-Here's a line for us to start with.
+[HTML link](https://www.w3schools.com/html/default.asp)
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+[bootstraplink](https://getbootstrap.com/docs/3.3/)
 
-This line is also begins a separate paragraph, but...  
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+Once again, thank you so much for purchasing this templete.
+As we said at the beginning, We'd be glad to help you if you have any questions relating to this theme. We I'll do our best to assist. If u have question u can ask us here.
 
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+And if u love our theme, pls rate it with 5 stars :D 
+Thanks
 
-<a name="videos"/>
-
-## YouTube Videos
-
-They can't be added directly but you can add an image with a link to the video like this:
-
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-```
-
-Or, in pure Markdown, but losing the image sizing and border:
-
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
